@@ -23,7 +23,7 @@
     "indigo-react": "^1.1.1",
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0",
+    "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "sigil-js": "file:..",
     "styled-components": ">= 3",

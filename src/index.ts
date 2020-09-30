@@ -56,10 +56,10 @@ const paint = (node: Ast, colors: [string, string], strokeWidth: number): Ast =>
   }
 
   return {
+    ...node,
     name: node.name,
     attributes: node.attributes,
     children: node.children.map(n => paint(n, colors, strokeWidth)),
-    ...node,
   };
 };
 
